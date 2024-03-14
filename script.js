@@ -73,6 +73,40 @@ function nextQuestion() {
         score = 0; // Reset score
         // Optionally, you can automatically restart the quiz or add a restart button.
     }
+    const quizLevels = [
+    { // Level 1
+        questions: [
+            {
+                question: "How many days did God take to create the world?",
+                options: ['6', '7', '10', '12'],
+                answer: '6'
+            },
+            {
+                question: "What was the first thing God created?",
+                options: ['Light', 'Stars', 'Animals', 'Man'],
+                answer: 'Light'
+            }
+            // Add more questions as needed
+        ]
+    },
+    { // Level 2
+        questions: [
+            {
+                question: "Who was the oldest man to live in the Bible?",
+                options: ['Methuselah', 'Noah', 'Adam', 'Enoch'],
+                answer: 'Methuselah'
+            },
+            {
+                question: "Who did God ask to build an ark?",
+                options: ['Moses', 'Abraham', 'Noah', 'Jacob'],
+                answer: 'Noah'
+            }
+            // Add more questions as needed
+        ]
+    }
+    // Add more levels as needed
+];
+
 }
 
 window.onload = function() {
