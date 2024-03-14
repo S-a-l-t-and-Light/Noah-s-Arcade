@@ -27,3 +27,16 @@ body {
 #options li:hover {
     background-color: #d0d0d0;
 }
+.feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
