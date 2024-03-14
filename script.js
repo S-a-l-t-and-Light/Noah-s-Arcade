@@ -112,3 +112,46 @@ function nextQuestion() {
 window.onload = function() {
     displayQuestion();
 };
+const questions = [
+    {
+        question: "How many of each kind of clean animal did Noah take on the ark?",
+        options: ['2', '7', '10', '12'],
+        answer: '7'
+    },
+    {
+        question: "What did God use as a sign of His promise not to flood the earth again?",
+        options: ['Sun', 'Olive branch', 'Rainbow', 'Dove'],
+        answer: 'Rainbow'
+    },
+    // New questions added below
+    {
+        question: "Who was swallowed by a great fish?",
+        options: ['Jonah', 'Daniel', 'Elijah', 'Moses'],
+        answer: 'Jonah'
+    },
+    {
+        question: "Who was the first king of Israel?",
+        options: ['Saul', 'David', 'Solomon', 'Samuel'],
+        answer: 'Saul'
+    },
+    {
+        question: "Who was thrown into a lions' den?",
+        options: ['Daniel', 'Jeremiah', 'Ezekiel', 'Joseph'],
+        answer: 'Daniel'
+    },
+    {
+        question: "Who did Jesus raise from the dead?",
+        options: ['Lazarus', 'Jairus\' daughter', 'The widow\'s son', 'All of the above'],
+        answer: 'All of the above'
+    },
+    {
+        question: "What city was Jesus born in?",
+        options: ['Bethlehem', 'Jerusalem', 'Nazareth', 'Hebron'],
+        answer: 'Bethlehem'
+    },
+    {
+        question: "On which mountain did Moses receive the Ten Commandments?",
+        options: ['Mount Sinai', 'Mount Zion', 'Mount Moriah', 'Mount Ararat'],
+        answer: 'Mount Sinai'
+    }
+];
